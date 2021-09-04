@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS versão 4.1.3-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> <!-- Versao 5.3.1 do site FontAwesome para utilização de icones /verificar se ainda está disponível para evitar erros-->
+
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <title>Perfil Pessoal</title>
+  </head>
+  <body>
+    
+    <header><!-- Início Cabeçalho -->
+      <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-primary"><!-- sm - navegaçao (botao) aparece quando estiver utilizando o small barra de navegação -->
+        <div class="container">
+          <a href="index.html" class="navbar-brand"><!-- navbar brand - para o nome de seu projeto, produto ou companhia;-->
+           <h1 id="titulo-principal">Projeto<span class="branco">Web</span></h1>
+          </a>
+
+          <button class="navbar-toggler" data-toggle = "collapse" data-target="#navegacao"><!-- data toggle é padrao do bootstrap, é utilizado o data-toggle com o collapse para identificar que esse botao que irá ser pressionado que nós queremos abrir a navegação abaixo! Data target define o que nós queremos abrir-->
+            <span class="navbar-toggler-icon"></span><!-- Declarar botao de icone com aquelas barras - responsividade ao diminuir a tela-->
+          </button>
+
+          <div class="collapse navbar-collapse" id="navegacao"><!-- Colapse esconde os itens de navegação! Navbar colappse formata nossa navebar-->
+            <ul class="navbar-nav ml-auto"><!-- alinha a lista para a esquerda de forma automática -->
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Perfil Pessoal</a> 
+              </li>
+              <li class="nav-item">
+                <a href="contato.html" class="nav-link">Contato</a> 
+              </li>
+              <li class="nav-item">
+                <a href="calculadora.html" class="nav-link">Calculadora</a> 
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+      </nav> 
+    </header><!-- Fim Cabeçalho -->
+
+
+      <section id="Perfil-Pessoal"><!--/inicio sessao-->
+          <div class="container"><!--area para trabalhar com os grids, grids ocupam 12 colunas no total-->
+            <div class="row"><!--cria uma linha, row significa linha - acabou de criar um flex container-->
+              <div class="col-md-6 d-flex"><!--area texto ocupando 6 posições/colunas grid-->
+               <div class="align-self-center"><!--centraliza o elemento, em cima converte pra d-flex (flexbox)-->
+                 <h1 class="display-3">Seja bem vindo(a) ao meu perfil pessoal!</h1><!--formato de texto display 4-->
+                 <p>Sou um estudante que busca sempre aproveitar a vida ao máximo e descobrir novas tecnologias.</p>
+                 <p>Minhas redes sociais:
+                  <a href="" class="btn btn-outline-dark">
+                    <i class="fab fa-instagram fa-lg"></i> <!-- Icone classe disponivel no font aewsome-->
+                  </a>
+                  <a href="" class=" btn btn-outline-dark">
+                    <i class="fab fa-linkedin fa-lg"></i> <!-- Icone classe disponivel no font aewsome-->
+                  </a>
+                  <a href="" class=" btn btn-outline-dark">
+                    <i class="fab fa-facebook fa-lg"></i> <!-- Icone classe disponivel no font aewsome-->
+                  </a>
+                 </p>
+               </div>      
+              </div>
+              <div class="col-md-6 d-none d-md-block"><!--area imagem ocupando 6 posições, d-none a imagem vai desaparecer, só vai aparecer quando foi md(medium)/colunas grid-->
+                <img id="img_perfilpessoal" src="img/capa-homiii.png">
+              </div>
+            </div>   
+          </div>
+        
+      </section><!--/fim sessao Perfil Pessoal-->
+
+      <section class="conteudos"> <!--/Inicio sessao de conteudos Dados pessoais-->
+        <div class="container"><!--area para trabalhar com os grids, grids ocupam 12 colunas no total-->
+          <div class="row"><!--cria uma linha, row significa linha - acabou de criar um flex container-->
+            <div class="col-md-6 d-flex"><!--converte pra d-flex--><!--area texto ocupando 6 posições/colunas grid-->
+              <div class="align-self-center"><!--centraliza o elemento, em cima converte pra d-flex (flexbox)-->
+                    <h2>Dados pessoais</h2>
+                    <div class="media"> <!--alinha imagem ao lado do texto-->
+                      <img class="mr-3 align-self-start" id="edita_img" src="img/sam.jpg"> <!--start alinha imagem no topo e eu apliquei margem a direita-->
+                      <div class="media-body"><!--alinha texto ao lado da imagem no corpo no documento, aprendi na aula 126-->
+                        <p><strong>Nome completo:</strong> Samuel Santos Moreira</p>
+                        <p><strong>Data de Nascimento:</strong> 14/02/2001</p>
+                        <p><strong>Rua:</strong> Rio Sacramento</p>
+                        <p><strong>Bairro:</strong> Riacho das Pedras</p>
+                        <p><strong>Número:</strong> 465</p>
+                        <p><strong>Estado:</strong> Minas Gerais</p>
+                        <p><strong>Cidade:</strong> Contagem</p>
+                        <p><strong>Nacionalidade:</strong> Brasileiro</p>
+                        <p><strong>Naturalidade:</strong> Belo Horizonte</p>
+                        <p><strong>CEP:</strong> 32280-470</p>
+                        <p><strong>E-mail:</strong> samuel.smoreira@hotmail.com</p>
+                        <p><strong>Telefone celular:</strong> (31)982946219</p>
+                    </div>
+                    </div>
+              </div>
+            </div>
+            <div class="col-md-6"><!--area imagem ocupando 6 posições, d-none a imagem vai desaparecer, só vai aparecer quando foi md(medium)/colunas grid-->             
+              <img src="img/teste2.png" class="img-fluid">          
+            </div>
+          </div>
+        </div>
+      </section><!--/Fim sessao de conteudos-->
+
+      <section class="conteudos"> <!--/Inicio sessao de conteudos Histórico escolar-->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="img/teste5.jpg" class="img-fluid">   
+            </div>
+            <div class="col-md-6 d-flex"><!--converte pra d-flex-->
+              <div class="text-justify" class="align-self-center"><!--centraliza o elemento, em cima converte pra d-flex (flexbox)-->
+                <h2>Histórico escolar</h2>
+                <p>1º grau completo na escola NEFC - Núcleo Educacional Francisca Campos.</p>
+                <p>2º grau completo na escola Escola Estadual Padre José Maria de Man.</p>
+                <p>Cursando o 6º período do curso de Sistemas de Informação na PUC Minas Contagem.</p>
+               <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section><!--/Fim sessao de conteudos-->
+
+      <section class="conteudos"> <!--/Inicio sessao de conteudos Histório Profissional-->
+        <div  class="container">
+          <div class="row">
+            <div class="col-12 d-flex"><!--converte pra d-flex-->
+              <div class="text-justify" class="align-self-center"><!--centraliza o elemento, em cima converte pra d-flex (flexbox)-->
+                <h2>Histórico profissional</h2>
+                <img id="alinhar_imgprofissional" src="img/teste4.jpg" class="img-fluid">
+                <p>Aprendiz em instalação elétrica industrial – Empresa Tecborr Tecnologia em Elastomeros Plast. Ind. LTDA.<br>
+                Período: 08/2017 - 07/2018.</p>
+                <p>Jovem aprendiz na empresa Localix – Soluções Ambientais atuando na área Jurídica/Administrativa.<br>
+                Período: 01/2020 - 01/2021.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section><!--/Fim sessao de conteudos-->
+
+      
+
+      
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+.branco{
+	color: #4e4e4e;
+}
+#titulo-principal{
+	font-size: 1.5em;
+}
+#Perfil-Pessoal{
+	background: #007BFF;
+	color: white;
+}
+.conteudos{
+	padding: 50px 0px;
+	border-bottom: 1px solid #007BFF;
+}
+h2{
+	margin-bottom: 20px;
+
+}
+#edita_img{
+  width: 200px;
+  border-radius: 10px;
+
+}
+#img_perfilpessoal{
+	width: 600px;
+}
+
+
+/*Histórico profissional*/
+#alinhar_imgprofissional{
+	width: 750px;
+}
+
+
+
+/*Página contato*/
+#formulario_edit{
+	margin: 80px;
+	color: black;
+}
+/*Página calculadora*/
+#calculad{
+	margin: 80px;
+	color: black;
+	text-align: center;
+}
+
