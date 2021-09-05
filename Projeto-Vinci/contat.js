@@ -15,14 +15,14 @@ $(document).ready(function(){
 
 		if(nome != '' && assunto != '' && email.includes('@') && email.includes('.com') && descricao != ''){/*includes incluir deve incluir no email/string*/
 			let body =`
-			Prezado: ${nome}
+			Prezado: ${nome}!
 
 			
-			\n${descricao}` 
+			${descricao}` 
 			
 			window.open(`mailto:${email}?subject=${assunto}&body=${body}`);/*interpolação, subject assunto, body descrição*/
 		}else{
-			alert('dados inválidos')
+			alert('Dados inválidos!')
 		}
 		
 

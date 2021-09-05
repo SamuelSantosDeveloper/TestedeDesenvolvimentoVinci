@@ -17,10 +17,10 @@
   <body>
     
     <header><!-- Início Cabeçalho -->
-      <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-primary"><!-- sm - navegaçao (botao) aparece quando estiver utilizando o small barra de navegação -->
+      <nav class="navbar navbar-expand-sm navbar-dark bg-primary"><!-- sm - navegaçao (botao) aparece quando estiver utilizando o small barra de navegação -->
         <div class="container">
           <a href="index.html" class="navbar-brand"><!-- navbar brand - para o nome de seu projeto, produto ou companhia;-->
-           <h1 id="titulo-principal">Projeto<span class="branco">Web</span></h1>
+           <h1 id="titulo-principal">Projeto<span class="branco">Web </span></h1>
           </a>
 
           <button class="navbar-toggler" data-toggle = "collapse" data-target="#navegacao"><!-- data toggle é padrao do bootstrap, é utilizado o data-toggle com o collapse para identificar que esse botao que irá ser pressionado que nós queremos abrir a navegação abaixo! Data target define o que nós queremos abrir-->
@@ -54,20 +54,20 @@
                  <h1 class="display-3">Seja bem vindo(a) ao meu perfil pessoal!</h1><!--formato de texto display 4-->
                  <p>Sou um estudante que busca sempre aproveitar a vida ao máximo e descobrir novas tecnologias.</p>
                  <p>Minhas redes sociais:
-                  <a href="" class="btn btn-outline-dark">
+                  <a href="https://www.instagram.com/sam_dort/" class="btn btn-outline-dark">
                     <i class="fab fa-instagram fa-lg"></i> <!-- Icone classe disponivel no font aewsome-->
                   </a>
-                  <a href="" class=" btn btn-outline-dark">
+                  <a href="https://www.linkedin.com/in/samuel-santos-58a345193/" class=" btn btn-outline-dark">
                     <i class="fab fa-linkedin fa-lg"></i> <!-- Icone classe disponivel no font aewsome-->
                   </a>
-                  <a href="" class=" btn btn-outline-dark">
+                  <a href="https://www.facebook.com/samuel.moreira.7568596/" class=" btn btn-outline-dark">
                     <i class="fab fa-facebook fa-lg"></i> <!-- Icone classe disponivel no font aewsome-->
                   </a>
                  </p>
                </div>      
               </div>
               <div class="col-md-6 d-none d-md-block"><!--area imagem ocupando 6 posições, d-none a imagem vai desaparecer, só vai aparecer quando foi md(medium)/colunas grid-->
-                <img id="img_perfilpessoal" src="img/capa-homiii.png">
+                <img id="img_perfilpessoal" src="img/testey.png">
               </div>
             </div>   
           </div>
@@ -81,7 +81,7 @@
               <div class="align-self-center"><!--centraliza o elemento, em cima converte pra d-flex (flexbox)-->
                     <h2>Dados pessoais</h2>
                     <div class="media"> <!--alinha imagem ao lado do texto-->
-                      <img class="mr-3 align-self-start" id="edita_img" src="img/sam.jpg"> <!--start alinha imagem no topo e eu apliquei margem a direita-->
+                      <img class="mr-2 align-self-start" id="edita_img_perfil_dadosp" src="img/samuca.jpeg"> <!--start alinha imagem no topo e eu apliquei margem a direita-->
                       <div class="media-body"><!--alinha texto ao lado da imagem no corpo no documento, aprendi na aula 126-->
                         <p><strong>Nome completo:</strong> Samuel Santos Moreira</p>
                         <p><strong>Data de Nascimento:</strong> 14/02/2001</p>
@@ -100,7 +100,7 @@
               </div>
             </div>
             <div class="col-md-6"><!--area imagem ocupando 6 posições, d-none a imagem vai desaparecer, só vai aparecer quando foi md(medium)/colunas grid-->             
-              <img src="img/teste2.png" class="img-fluid">          
+              <img id="img_dpessoais" src="img/teste2.png" class="img-fluid">          
             </div>
           </div>
         </div>
@@ -115,8 +115,9 @@
             <div class="col-md-6 d-flex"><!--converte pra d-flex-->
               <div class="text-justify" class="align-self-center"><!--centraliza o elemento, em cima converte pra d-flex (flexbox)-->
                 <h2>Histórico escolar</h2>
-                <p>1º grau completo na escola NEFC - Núcleo Educacional Francisca Campos.</p>
-                <p>2º grau completo na escola Escola Estadual Padre José Maria de Man.</p>
+                <p>Início do 1º grau na Escola Municipal Dona Babita Camargos.</p>
+                <p>1º grau completo na Escola Municipal Sócrates Mariani Bittencourt.</p>
+                <p>2º grau completo na Escola Estadual Padre José Maria de Man.</p>
                 <p>Cursando o 6º período do curso de Sistemas de Informação na PUC Minas Contagem.</p>
                <p></p>
               </div>
@@ -129,10 +130,12 @@
       <section class="conteudos"> <!--/Inicio sessao de conteudos Histório Profissional-->
         <div  class="container">
           <div class="row">
-            <div class="col-12 d-flex"><!--converte pra d-flex-->
+            <div class="col-md-6">
+              <img id="alinhar_imgprofissional" src="img/teste4.jpg" class="img-fluid">   
+            </div>
+            <div class="col-md-6 d-flex"><!--converte pra d-flex-->
               <div class="text-justify" class="align-self-center"><!--centraliza o elemento, em cima converte pra d-flex (flexbox)-->
                 <h2>Histórico profissional</h2>
-                <img id="alinhar_imgprofissional" src="img/teste4.jpg" class="img-fluid">
                 <p>Aprendiz em instalação elétrica industrial – Empresa Tecborr Tecnologia em Elastomeros Plast. Ind. LTDA.<br>
                 Período: 08/2017 - 07/2018.</p>
                 <p>Jovem aprendiz na empresa Localix – Soluções Ambientais atuando na área Jurídica/Administrativa.<br>
@@ -144,8 +147,21 @@
         
       </section><!--/Fim sessao de conteudos-->
 
-      
+      <footer class="mt-4 mb-0">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>&copy; Todos os direitos reservados</p>
+            </div>
+          </div>
+        </div>
 
+      </footer>
+
+        
+
+      
+      
       
 
     <!-- JavaScript (Opcional) -->

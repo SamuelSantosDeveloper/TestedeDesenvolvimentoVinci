@@ -43,21 +43,102 @@
       </nav> 
     </header><!-- Fim Cabeçalho -->
 
-    <section>
-      <form>
-        <div class="form-group" id="calculad">
-          <p>
-         <input  type="number" name="txtn1" id="txtn1" placeholder="Valor 1"> +
-         <input  type="number" name="txtn2" id="txtn2" placeholder="Valor 2"> =
-         <input type="number" name="txtresult" id="txtresult" placeholder="Resultado" readonly>
-          </p>
+    <section id="sessao-caluladora">
+      <h2 id="edit_textocalculadora">Calculadora</h2>
+      <div id="posicao_inputs">
+       <p><input type="number" name="txtn1" id="txtn1" placeholder="Valor 1"> 
+          <select id="operadores">
+            <option>+</option>
+            <option>-</option>
+            <option>*</option>
+            <option>/</option>
+            <option>^</option>
+          </select>
+          <input type="number" name="txtn2" id="txtn2" placeholder="Valor 2">
+          
+        </p>
+
+         <p><input type="number" name="txtresult" id="txtresult" placeholder="Resultado" readonly></p>
           <input class="btn btn-primary" id="bt-enviar" type="button" value="Calcular">
-        </div>
-      </form>
+      </div>
+        
     </section>
+        <section id="CalcModerna">
+          <p>Se preferir utilize minha calculadora moderna, <a href="" data-toggle="modal" data-target="#ModalCalculadora">clique aqui.</a></p>      
+        </section>
+
+    <div class="modal fade" id="ModalCalculadora" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1>Calculadora</h1>
+                <button type="button" class="close" data-dismiss="modal"></button>
+                  <span>&times;</span>
+                </button>
+ 
+              </div>
+
+              <div class="modal-body">
+                    <div id="CalcAvancada">
+                     
+                      <p id="resultado"></p>
+
+                      <table>
+                        <tr>
+                          <td><button class="editarbotao">7</button></td>
+                          <td><button class="editarbotao">8</button></td>
+                          <td><button class="editarbotao">9</button></td>
+                          <td><button class="editarbotao">/</button></td>
+                        </tr>
+
+                        <tr>
+                          <td><button class="editarbotao">4</button></td>
+                          <td><button class="editarbotao">5</button></td>
+                          <td><button class="editarbotao">6</button></td>
+                          <td><button class="editarbotao">*</button></td>
+                        </tr>
+
+                        <tr>
+                          <td><button class="editarbotao">1</button></td>
+                          <td><button class="editarbotao">2</button></td>
+                          <td><button class="editarbotao">3</button></td>
+                          <td><button class="editarbotao">-</button></td>
+                        </tr>
+
+                        <tr>
+                          <td><button class="editarbotao">0</button></td>
+                          <td><button class="editarbotao">.</button></td>
+                          <td><button class="editarbotao">√</button></td>
+                          <td><button class="editarbotao">+</button></td>
+                        </tr>
+
+                        <tr>
+                          <td><button class="editarbotao">^</button></td>
+                          <td><button class="editarbotao">CE</button></td>
+                          <td><button class="editarbotao"><</button></td>
+                          <td><button class="editarbotao">=</button></td>
+                        </tr>
+                      </table>
+                    </div>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <footer class="mt-4 mb-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>&copy; Todos os direitos reservados</p>
+          </div>
+        </div>
+      </div>
+
+    </footer>
 
    
 
+  
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
