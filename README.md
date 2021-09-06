@@ -39,8 +39,11 @@ Apliquei as alterações, logo pode-se observar ao executar a ação clicando em
 
 Todas as imagens buscadas são gratuitas e podem ser utilizadas para o projeto.
 https://www.pexels.com/pt-br/foto/foto-aproximada-de-livros-com-diversos-titulos-1122865/
+
 https://pixabay.com/pt/photos/computador-port%c3%a1til-caf%c3%a9-1209008/
+
 https://www.gratispng.com/png-yibkms/download.html
+
 https://www.gratispng.com/png-52lsfk/
 
 Contudo, aplicando conceitos que aprendi na faculdade, como também o uso do site do Bootstrap para informações e a Udemy (cursos que contém jQuery, Bootstrap, etc), pude realizar o Teste de Desenvolvimento.
