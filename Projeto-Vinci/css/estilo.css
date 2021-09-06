@@ -1,3 +1,5 @@
+
+/*Index.html -> Perfil Pessoal*/
 .branco{
 	color: #4e4e4e;
 }
@@ -12,32 +14,35 @@
 	padding: 50px 0px;
 	border-bottom: 1px solid #35363a;
 }
+#img_perfilpessoal{
+	width: 500px;
+}
 h2{
 	margin-bottom: 20px;
 
 }
 
-#img_dpessoais{
+/*Dados Pessoais*/
+
+#edita_img_perfil_dadosp{
+  width: 200px;
+  border-radius: 30px;
+}
+
+#edit_area1_dadosp{
+	margin-left: 20px;
+	
+}
+
+#editar_img_dpessoais{
+	margin-left: 60px;
+	margin-top: 60px;
+	width: 400px;
+	height: 400px;
 	border-radius:5px;
 	border-color: black;
 	box-shadow: 3px 3px 8px black;
 }
-
-#edita_img_perfil_dadosp{
-  width: 200px;
-  border-radius: 90px;
-
-}
-#img_perfilpessoal{
-	width: 500px;
-}
-
-
-/*Histórico profissional*/
-#alinhar_imgprofissional{
-	width: 550px;
-}
-
 
 
 /*Página contato*/
@@ -45,6 +50,12 @@ h2{
 	margin: 80px;
 	color: black;
 }
+#sessao_contato{
+	width: 1000px;
+	margin: auto;
+}
+
+
 /*Página calculadora*/
 #calculad{
 	margin: 80px;
@@ -52,7 +63,6 @@ h2{
 	text-align: center;
 	
 }
-
 #sessao-caluladora{
 background:white;
 border-radius: 10px;
@@ -64,32 +74,14 @@ box-shadow: 3px 3px 10px black;
 margin-top: 250px;
 }
 
-
 #edit_textocalculadora{
 	font-family: "Times New Roman", 'Times New Roman', Times, serif;
 	text-align: center;
 }
 
-footer{
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  background: #35363a;
-  color: white;
-  height: 30px;
-  text-align: center;
-}
-/*Calculadora*/
 #posicao_inputs{
 	text-align: center;
 }
-	
-#sessao_contato{
-	width: 1000px;
-	margin: auto;
-}
-
 #CalcModerna{
 	margin-top: 20px;
 	text-align: center;
@@ -99,7 +91,7 @@ footer{
 	background-color: cornflowerblue;
 	width: 250px;
 	border-radius: 15px;
-	margin-left: 10px;
+	margin-left: 9px;
 	text-align: center;
 }
 .editarbotao{
@@ -121,3 +113,21 @@ footer{
 	font-size: 25px;
 
 }
+
+
+/*Rodapé das páginas*/
+
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: #35363a;
+  color: white;
+  height: 30px;
+  text-align: center;
+}
+
+	
+
+

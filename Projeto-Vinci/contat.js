@@ -13,14 +13,14 @@ $(document).ready(function(){
 
 		let descricao = $('#descricao').val()
 
-		if(nome != '' && assunto != '' && email.includes('@') && email.includes('.com') && descricao != ''){/*includes incluir deve incluir no email/string*/
+		if(nome != '' && assunto != '' && email.includes('@') && email.includes('.com') && descricao != ''){
 			let body =`
 			Prezado: ${nome}!
 
 			
 			${descricao}` 
 			
-			window.open(`mailto:${email}?subject=${assunto}&body=${body}`);/*interpolação, subject assunto, body descrição*/
+			window.open(`mailto:${email}?subject=${assunto}&body=${body}`);
 		}else{
 			alert('Dados inválidos!')
 		}

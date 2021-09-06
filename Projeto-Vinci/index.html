@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <!-- Meta tags Obrigatórias -->
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS versão 4.1.3-->
+  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> <!-- Versao 5.3.1 do site FontAwesome para utilização de icones /verificar se ainda está disponível para evitar erros-->
@@ -17,18 +17,18 @@
   <body>
     
     <header><!-- Início Cabeçalho -->
-      <nav class="navbar navbar-expand-sm navbar-dark bg-primary"><!-- sm - navegaçao (botao) aparece quando estiver utilizando o small barra de navegação -->
+      <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
         <div class="container">
-          <a href="index.html" class="navbar-brand"><!-- navbar brand - para o nome de seu projeto, produto ou companhia;-->
+          <a href="index.html" class="navbar-brand">
            <h1 id="titulo-principal">Projeto<span class="branco">Web </span></h1>
           </a>
 
-          <button class="navbar-toggler" data-toggle = "collapse" data-target="#navegacao"><!-- data toggle é padrao do bootstrap, é utilizado o data-toggle com o collapse para identificar que esse botao que irá ser pressionado que nós queremos abrir a navegação abaixo! Data target define o que nós queremos abrir-->
-            <span class="navbar-toggler-icon"></span><!-- Declarar botao de icone com aquelas barras - responsividade ao diminuir a tela-->
+          <button class="navbar-toggler" data-toggle = "collapse" data-target="#navegacao">
+            <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navegacao"><!-- Colapse esconde os itens de navegação! Navbar colappse formata nossa navebar-->
-            <ul class="navbar-nav ml-auto"><!-- alinha a lista para a esquerda de forma automática -->
+          <div class="collapse navbar-collapse" id="navegacao">
+            <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a href="index.html" class="nav-link">Perfil Pessoal</a> 
               </li>
@@ -46,78 +46,79 @@
     </header><!-- Fim Cabeçalho -->
 
 
-      <section id="Perfil-Pessoal"><!--/inicio sessao-->
-          <div class="container"><!--area para trabalhar com os grids, grids ocupam 12 colunas no total-->
-            <div class="row"><!--cria uma linha, row significa linha - acabou de criar um flex container-->
-              <div class="col-md-6 d-flex"><!--area texto ocupando 6 posições/colunas grid-->
-               <div class="align-self-center"><!--centraliza o elemento, em cima converte pra d-flex (flexbox)-->
-                 <h1 class="display-3">Seja bem vindo(a) ao meu perfil pessoal!</h1><!--formato de texto display 4-->
-                 <p>Sou um estudante que busca sempre aproveitar a vida ao máximo e descobrir novas tecnologias.</p>
+      <section id="Perfil-Pessoal"><!--/Início sessão Perfil Pessoal-->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 d-flex">
+               <div class="align-self-center">
+                 <h1 class="display-3">Seja bem vindo ao meu perfil pessoal</h1>
+                 <p>Graduando em Sistemas de Informação visando contribuir para o avanço da tecnologia.</p>
                  <p>Minhas redes sociais:
                   <a href="https://www.instagram.com/sam_dort/" class="btn btn-outline-dark">
-                    <i class="fab fa-instagram fa-lg"></i> <!-- Icone classe disponivel no font aewsome-->
+                    <i class="fab fa-instagram fa-lg"></i> 
                   </a>
                   <a href="https://www.linkedin.com/in/samuel-santos-58a345193/" class=" btn btn-outline-dark">
-                    <i class="fab fa-linkedin fa-lg"></i> <!-- Icone classe disponivel no font aewsome-->
+                    <i class="fab fa-linkedin fa-lg"></i> 
                   </a>
                   <a href="https://www.facebook.com/samuel.moreira.7568596/" class=" btn btn-outline-dark">
-                    <i class="fab fa-facebook fa-lg"></i> <!-- Icone classe disponivel no font aewsome-->
+                    <i class="fab fa-facebook fa-lg"></i> 
                   </a>
                  </p>
                </div>      
               </div>
-              <div class="col-md-6 d-none d-md-block"><!--area imagem ocupando 6 posições, d-none a imagem vai desaparecer, só vai aparecer quando foi md(medium)/colunas grid-->
-                <img id="img_perfilpessoal" src="img/testey.png">
+              <div class="col-md-6 d-none d-md-block">
+                <img id="img_perfilpessoal" src="img/imagem_cabecalho.png">
               </div>
             </div>   
           </div>
         
-      </section><!--/fim sessao Perfil Pessoal-->
+      </section><!--/fim sessão Perfil Pessoal-->
 
-      <section class="conteudos"> <!--/Inicio sessao de conteudos Dados pessoais-->
-        <div class="container"><!--area para trabalhar com os grids, grids ocupam 12 colunas no total-->
-          <div class="row"><!--cria uma linha, row significa linha - acabou de criar um flex container-->
-            <div class="col-md-6 d-flex"><!--converte pra d-flex--><!--area texto ocupando 6 posições/colunas grid-->
-              <div class="align-self-center"><!--centraliza o elemento, em cima converte pra d-flex (flexbox)-->
+
+      <section class="conteudos"> <!--/Início sessão de conteúdos Dados pessoais-->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 d-flex">
+              <div class="align-self-center">
                     <h2>Dados pessoais</h2>
-                    <div class="media"> <!--alinha imagem ao lado do texto-->
-                      <img class="mr-2 align-self-start" id="edita_img_perfil_dadosp" src="img/samuca.jpeg"> <!--start alinha imagem no topo e eu apliquei margem a direita-->
-                      <div class="media-body"><!--alinha texto ao lado da imagem no corpo no documento, aprendi na aula 126-->
+                    <div class="media"> 
+                      <img class="mr-2 align-self-start" id="edita_img_perfil_dadosp" src="img/samuel_perfil.jpeg">
+                      <div id="edit_area1_dadosp" class="media-body">
                         <p><strong>Nome completo:</strong> Samuel Santos Moreira</p>
                         <p><strong>Data de Nascimento:</strong> 14/02/2001</p>
                         <p><strong>Rua:</strong> Rio Sacramento</p>
                         <p><strong>Bairro:</strong> Riacho das Pedras</p>
                         <p><strong>Número:</strong> 465</p>
-                        <p><strong>Estado:</strong> Minas Gerais</p>
+                        <p><strong>Estado:</strong> Minas Gerais</p> 
                         <p><strong>Cidade:</strong> Contagem</p>
                         <p><strong>Nacionalidade:</strong> Brasileiro</p>
                         <p><strong>Naturalidade:</strong> Belo Horizonte</p>
                         <p><strong>CEP:</strong> 32280-470</p>
                         <p><strong>E-mail:</strong> samuel.smoreira@hotmail.com</p>
-                        <p><strong>Telefone celular:</strong> (31)982946219</p>
+                        <p><strong>Telefone celular:</strong> (31)982946219</p>                 
                     </div>
                     </div>
               </div>
             </div>
-            <div class="col-md-6"><!--area imagem ocupando 6 posições, d-none a imagem vai desaparecer, só vai aparecer quando foi md(medium)/colunas grid-->             
-              <img id="img_dpessoais" src="img/teste2.png" class="img-fluid">          
+            <div id="edit_area2_dadosp" class="col-md-6">
+             <img id="editar_img_dpessoais" src="img/dadospessoaisimage.png" class="img-fluid">
+              
             </div>
           </div>
         </div>
-      </section><!--/Fim sessao de conteudos-->
+      </section><!--/Fim sessão de conteúdos-->
 
-      <section class="conteudos"> <!--/Inicio sessao de conteudos Histórico escolar-->
+      <section class="conteudos"> <!--/Início sessão de conteudos Histórico escolar-->
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <img src="img/teste5.jpg" class="img-fluid">   
+              <img src="img/imagem_historico_escolar.jpg" class="img-fluid">   
             </div>
-            <div class="col-md-6 d-flex"><!--converte pra d-flex-->
-              <div class="text-justify" class="align-self-center"><!--centraliza o elemento, em cima converte pra d-flex (flexbox)-->
+            <div class="col-md-6 d-flex">
+              <div class="text-justify" class="align-self-center">
                 <h2>Histórico escolar</h2>
-                <p>Início do 1º grau na Escola Municipal Dona Babita Camargos.</p>
-                <p>1º grau completo na Escola Municipal Sócrates Mariani Bittencourt.</p>
-                <p>2º grau completo na Escola Estadual Padre José Maria de Man.</p>
+                <p>Ensino fundamental completo na Escola Municipal Sócrates Mariani Bittencourt.</p>
+                <p>Ensino médio completo na Escola Estadual Padre José Maria de Man.</p>
                 <p>Cursando o 6º período do curso de Sistemas de Informação na PUC Minas Contagem.</p>
                <p></p>
               </div>
@@ -125,16 +126,16 @@
           </div>
         </div>
         
-      </section><!--/Fim sessao de conteudos-->
+      </section><!--/Fim sessão de conteúdos-->
 
-      <section class="conteudos"> <!--/Inicio sessao de conteudos Histório Profissional-->
+      <section class="conteudos"> <!--/Início sessão de conteúdos Histório Profissional-->
         <div  class="container">
           <div class="row">
             <div class="col-md-6">
-              <img id="alinhar_imgprofissional" src="img/teste4.jpg" class="img-fluid">   
+              <img  src="img/imagem_historicoprofissional.jpg" class="img-fluid">   
             </div>
-            <div class="col-md-6 d-flex"><!--converte pra d-flex-->
-              <div class="text-justify" class="align-self-center"><!--centraliza o elemento, em cima converte pra d-flex (flexbox)-->
+            <div class="col-md-6 d-flex">
+              <div class="text-justify" class="align-self-center">
                 <h2>Histórico profissional</h2>
                 <p>Aprendiz em instalação elétrica industrial – Empresa Tecborr Tecnologia em Elastomeros Plast. Ind. LTDA.<br>
                 Período: 08/2017 - 07/2018.</p>
@@ -145,25 +146,13 @@
           </div>
         </div>
         
-      </section><!--/Fim sessao de conteudos-->
+      </section><!--/Fim sessão de conteúdos-->
 
-      <footer class="mt-4 mb-0">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <p>&copy; Todos os direitos reservados</p>
-            </div>
-          </div>
-        </div>
-
+      <footer>
+      <p>&copy; Todos os direitos reservados</p>
       </footer>
 
-        
-
-      
-      
-      
-
+  
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

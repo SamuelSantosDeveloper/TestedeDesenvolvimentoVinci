@@ -15,18 +15,18 @@
   <body>
     
    <header><!-- Início Cabeçalho -->
-      <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-primary"><!-- sm - navegaçao (botao) aparece quando estiver utilizando o small barra de navegação -->
+      <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-primary">
         <div class="container">
           <a href="index.html" class="navbar-brand">
            <h1 id="titulo-principal">Projeto<span class="branco">Web</span></h1>
           </a>
 
-          <button class="navbar-toggler" data-toggle = "collapse" data-target="#nav-principal"><!-- data toggle é padrao do bootstrap, é utilizado o data-toggle com o collapse para identificar que esse botao que irá ser pressionado que nós queremos abrir a navegação abaixo! Data target define o que nós queremos abrir-->
-            <span class="navbar-toggler-icon"></span><!-- Declarar botao de icone com aquelas barras - responsividade ao diminuir a tela-->
+          <button class="navbar-toggler" data-toggle = "collapse" data-target="#navegacao">
+            <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="nav-principal"><!-- Colapse esconde os itens de navegação! Navbar colappse formata nossa navebar-->
-            <ul class="navbar-nav ml-auto"><!-- alinha a lista para a esquerda de forma automática -->
+          <div class="collapse navbar-collapse" id="navegacao">
+            <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a href="index.html" class="nav-link">Perfil Pessoal</a> 
               </li>
@@ -47,20 +47,20 @@
         <form>
            <div class="form-group" id="formulario_edit">
           <p>
-            <label for= "Nome">Nome</label><!-- Form control aplica formatação na caixa de texto -->
-            <input class="form-control" type="text" name="Nome" placeholder="Insira seu nome">
+            <label for= "Nome">Nome</label>
+            <input class="form-control" type="text" name="Nome" placeholder="Insira o nome" required maxlength="40" minlength="2">
            </p>
           <p>
             <label for= "Email">E-mail</label>
-            <input class="form-control" type="email" name="Email" placeholder="Insira seu e-mail">
+            <input class="form-control" type="email" name="Email" placeholder="Insira o e-mail" required maxlength="50">
           </p>
           <p> 
             <label for= "Assunto">Assunto</label>
-            <input class="form-control" type="text" name="Assunto" placeholder="Insira o assunto">
+            <input class="form-control" type="text" name="Assunto" placeholder="Insira o assunto" required>
           </p>
           <p>
             <label for="descricao">Descrição</label>
-            <textarea class="form-control" id="descricao" rows="4"></textarea>
+            <textarea class="form-control" id="descricao" rows="4" placeholder="Insira uma descrição" required></textarea>
           </p>
 
           <p>
@@ -74,15 +74,9 @@
     </section>
 
     
-    <footer class="mt-4 mb-0">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <p>&copy; Todos os direitos reservados</p>
-          </div>
-        </div>
-      </div>
-    </footer>
+      <footer>
+      <p>&copy; Todos os direitos reservados</p>
+      </footer>
    
 
 

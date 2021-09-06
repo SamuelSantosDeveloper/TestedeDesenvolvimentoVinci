@@ -15,18 +15,18 @@
   <body>
     
     <header><!-- Início Cabeçalho -->
-      <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-primary"><!-- sm - navegaçao (botao) aparece quando estiver utilizando o small barra de navegação -->
+      <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-primary">
         <div class="container">
           <a href="index.html" class="navbar-brand">
            <h1 id="titulo-principal">Projeto<span class="branco">Web</span></h1>
           </a>
 
-          <button class="navbar-toggler" data-toggle = "collapse" data-target="#nav-principal"><!-- data toggle é padrao do bootstrap, é utilizado o data-toggle com o collapse para identificar que esse botao que irá ser pressionado que nós queremos abrir a navegação abaixo! Data target define o que nós queremos abrir-->
-            <span class="navbar-toggler-icon"></span><!-- Declarar botao de icone com aquelas barras - responsividade ao diminuir a tela-->
+          <button class="navbar-toggler" data-toggle = "collapse" data-target="#navegacao">
+            <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="nav-principal"><!-- Colapse esconde os itens de navegação! Navbar colappse formata nossa navebar-->
-            <ul class="navbar-nav ml-auto"><!-- alinha a lista para a esquerda de forma automática -->
+          <div class="collapse navbar-collapse" id="navegacao">
+            <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a href="index.html" class="nav-link">Perfil Pessoal</a> 
               </li>
@@ -43,7 +43,7 @@
       </nav> 
     </header><!-- Fim Cabeçalho -->
 
-    <section id="sessao-caluladora">
+    <section id="sessao-caluladora"> <!-- Sessão Início calculadora simples -->
       <h2 id="edit_textocalculadora">Calculadora</h2>
       <div id="posicao_inputs">
        <p><input type="number" name="txtn1" id="txtn1" placeholder="Valor 1"> 
@@ -62,9 +62,10 @@
           <input class="btn btn-primary" id="bt-enviar" type="button" value="Calcular">
       </div>
         
-    </section>
-        <section id="CalcModerna">
-          <p>Se preferir utilize minha calculadora moderna, <a href="" data-toggle="modal" data-target="#ModalCalculadora">clique aqui.</a></p>      
+    </section> 
+    
+        <section id="CalcModerna"><!-- Sessão Início calculadora moderna -->
+          <p>Se preferir, utilize a calculadora moderna, <a href="" data-toggle="modal" data-target="#ModalCalculadora">clique aqui.</a></p>      
         </section>
 
     <div class="modal fade" id="ModalCalculadora" tabindex="-1" role="dialog">
@@ -125,17 +126,9 @@
       </div>
     </div>
 
-    <footer class="mt-4 mb-0">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <p>&copy; Todos os direitos reservados</p>
-          </div>
-        </div>
-      </div>
-
+    <footer>
+      <p>&copy; Todos os direitos reservados</p>
     </footer>
-
    
 
   

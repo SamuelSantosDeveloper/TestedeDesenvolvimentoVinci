@@ -2,7 +2,7 @@
 $(document).ready(function(){
     $('.editarbotao').on('click', function(){
 
-        /*console.log(e.target.textContent)*/
+        
         let valor_digitado = $(this).text()
         let valor_tela = $('#resultado').text()
 
@@ -31,7 +31,7 @@ $(document).ready(function(){
 
             valor_tela = valor_tela.replace("^", "**")
 
-            /*let resultado = eval(operacao)*/    
+              
             $('#resultado').text(eval(valor_tela).toString())
 
         }
@@ -40,14 +40,14 @@ $(document).ready(function(){
             
 
     })
-    $('#bt-enviar').on('click',function()/*funçao de somar, tem que ser anonima, sem nome, executa direto,  onclick do html evento jquery*/
+    $('#bt-enviar').on('click',function()
 {
     let number1 = parseInt($('input#txtn1').val())
     let number2 = parseInt($('input#txtn2').val())
     let operator = $('#operadores').val() 
 
 
-    if((isNaN (number1) ||  isNaN (number2))){ /*isNan é uma função que passa numero com parametro, retorna true ou false, verifica se é NaN*/
+    if((isNaN (number1) ||  isNaN (number2))){ 
         alert("Não é permitido campos em branco!")
     }else if(operator == '+'){
         let resultado = number1 + number2
