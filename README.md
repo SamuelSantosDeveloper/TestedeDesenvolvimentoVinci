@@ -31,7 +31,7 @@ https://stackoverflow.com/questions/21461589/javascript-mailto-using-window-open
 
 Peguei como base o código: window.open("mailto:"+emailTo+'?cc='+emailCC+'&subject='+emailSub+'&body='+emailBody);
 
-Apliquei as alterações, logo, pode-se observar ao executar a ação clicando em enviar o e-mail, abrirá o Email com as configurações da mensagem determinada pelo usuário, possibilitando o mesmo a enviar um e-mail para a pessoa que deseja.
+Apliquei as alterações, logo pode-se observar ao executar a ação clicando em enviar o e-mail, abrirá o Email com as configurações da mensagem determinada pelo usuário, possibilitando o mesmo a enviar um e-mail para a pessoa que deseja.
 
 
 =========================================================
