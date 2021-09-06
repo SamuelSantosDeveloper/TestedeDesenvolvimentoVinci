@@ -1,7 +1,6 @@
 # TestedeDesenvolvimentoVinci
 
 
-=============================================//==========================================================================================================================
 Segue abaixo os links utilizados para o desenvolvimento do software:
 
 Bootstrap:
@@ -11,7 +10,7 @@ https://getbootstrap.com.br/docs/4.1/components/navbar/
 
 Utilizado como base para a elaboração do site, nele consultei informações como Navbar, Modal, Collapse, entre outras classes (todas as informações no site do bootstrap) para criar o site proposto no Teste de Desenvolvimento. No primeiro link encontra-se o código template inicial com as configurações do Bootstrap (versão que eu utilizei), podendo aplicar as classes no programa.
 
-=============================================//===========================================================================================================================
+========================================================
 
 https://www.udemy.com/course/web-completo/
 
@@ -19,14 +18,14 @@ Busquei informações e aprendi diversos conceitos através do Curso de Desenvol
 
 Através dele, consegui obter conhecimento sobre jQuery e aplicar no meu Teste de Desenvolvimento.
 
-=============================================//===========================================================================================================================
+=======================================================
 
 Vídeos que também colaboraram para o meu aprendizado sobre jQuery:
 
 https://www.youtube.com/watch?v=6CKfh-pSqOA
 
 
-=============================================//===========================================================================================================================
+=======================================================
 
 https://stackoverflow.com/questions/21461589/javascript-mailto-using-window-open
 
@@ -35,7 +34,7 @@ Peguei como base o código: window.open("mailto:"+emailTo+'?cc='+emailCC+'&subje
 Apliquei as alterações, logo, pode-se observar ao executar a ação clicando em enviar o e-mail, abrirá o Email com as configurações da mensagem determinada pelo usuário, possibilitando o mesmo a enviar um e-mail para a pessoa que deseja.
 
 
-=============================================//===========================================================================================================================
+=========================================================
 
 
 Todas as imagens buscadas são gratuitas e podem ser utilizadas para o projeto.
